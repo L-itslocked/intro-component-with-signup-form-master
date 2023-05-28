@@ -10,6 +10,8 @@ input {
   height: auto;
   border-color: hsl(246, 25%, 77%);
   font-weight: 500;
+  border-radius: 4.5px;
+  margin: 10px;
 }
 input:focus {
   color: hsl(249, 10%, 26%);
@@ -18,9 +20,8 @@ input:invalid {
   color: hsl(0, 100%, 74%);
 }
 
-input,
-button,
-.form {
+form,
+button {
   border-radius: 4.5px;
   display: block;
   margin: 0 auto;
@@ -33,7 +34,11 @@ button {
   display: block;
   margin: 0 auto;
   border: none;
-  box-shadow: 0 7px hsl(246, 25%, 77%);
+  box-shadow: 0 4px hsl(154, 67%, 42%);
+}
+.banner,
+.form {
+  box-shadow: 0 7px hsla(249, 10%, 26%, 0.271);
   /* review box-shadow element later */
 }
 .header,
@@ -54,8 +59,6 @@ button {
   margin: 0 20px;
   padding: 15px 0;
   text-align: center;
-  box-shadow: 0 7px hsl(246, 25%, 77%);
-  /* review box-shadow element later */
 }
 .banner span {
   font-weight: 600;
@@ -69,7 +72,17 @@ button {
   margin: 1.3rem;
   padding: 1.5rem;
 }
-
+.footer {
+  margin: 20px;
+  color: hsl(246, 25%, 77%);
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+.footer strong {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
