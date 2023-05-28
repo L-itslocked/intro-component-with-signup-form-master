@@ -4,6 +4,18 @@ body {
   font-size: 16px;
   margin: 150px auto;
 }
+input {
+  margin: 10px;
+  padding: 8px 0 8px 25px;
+  width: 435px;
+  height: auto;
+  border-radius: 4.5px;
+  border-color: hsl(246, 25%, 77%);
+  font-weight: 500;
+}
+input:focus {
+  color: hsl(249, 10%, 26%);
+}
 /* }
 .container {
   display: block;
@@ -24,15 +36,25 @@ button {
 }
 .banner {
   background-color: hsl(248, 32%, 49%);
-  padding: 10px 20px;
+  margin: 0 20px;
+  padding: 15px 0;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 5px hsl(246, 25%, 77%);
+  box-shadow: 0 7px hsl(246, 25%, 77%);
   /* review box-shadow element later */
 }
 .banner span {
   font-weight: 600;
 }
+.banner,
+.form {
+  border-radius: 9px;
+}
+.form {
+  background-color: #fff;
+  margin: 1.3rem;
+  padding: 1.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
