@@ -1,9 +1,26 @@
 body {
   background-color: hsl(0, 100%, 74%);
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  margin: 150px auto;
 }
+/* }
 .container {
   display: block;
   margin: 0 auto;
+} */
+.header,
+.subtitle,
+.banner,
+button {
+  color: #fff;
+}
+.header {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.subtitle {
+  font-weight: 600;
 }
 .attribution {
   font-size: 11px;
