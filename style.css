@@ -1,0 +1,29 @@
+body {
+  background-color: hsl(0, 100%, 74%);
+}
+.container {
+  display: block;
+  margin: 0 auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.attribution a:hover {
+  text-decoration: underline;
+  color: hsl(154, 59%, 51%);
+}
+@media (min-width: 701px) {
+  body {
+    background-image: url(/images/bg-intro-desktop.png);
+  }
+}
+@media (max-width: 700px) {
+  body {
+    background-image: url(/images/bg-intro-mobile.png);
+  }
+}
