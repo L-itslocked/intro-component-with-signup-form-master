@@ -5,22 +5,37 @@ body {
   margin: 150px auto;
 }
 input {
-  margin: 10px;
   padding: 8px 0 8px 25px;
   width: 435px;
   height: auto;
-  border-radius: 4.5px;
   border-color: hsl(246, 25%, 77%);
   font-weight: 500;
 }
 input:focus {
   color: hsl(249, 10%, 26%);
 }
-/* }
-.container {
+input:invalid {
+  color: hsl(0, 100%, 74%);
+}
+
+input,
+button,
+.form {
+  border-radius: 4.5px;
   display: block;
   margin: 0 auto;
-} */
+}
+button {
+  background-color: hsl(154, 59%, 51%);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 127px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 0 7px hsl(246, 25%, 77%);
+  /* review box-shadow element later */
+}
 .header,
 .subtitle,
 .banner,
