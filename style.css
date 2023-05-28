@@ -84,6 +84,7 @@ button {
   font-weight: 700;
 }
 .attribution {
+  margin: 100px auto;
   font-size: 11px;
   text-align: center;
 }
@@ -95,6 +96,7 @@ button {
   text-decoration: underline;
   color: hsl(154, 59%, 51%);
 }
+/* FIX REPONSIVE BEHAVIORS */
 @media (min-width: 701px) {
   body {
     background-image: url(/images/bg-intro-desktop.png);
