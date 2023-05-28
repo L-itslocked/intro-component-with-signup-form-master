@@ -17,9 +17,20 @@ button {
 }
 .header {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .subtitle {
+  font-weight: 500;
+}
+.banner {
+  background-color: hsl(248, 32%, 49%);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px hsl(246, 25%, 77%);
+  /* review box-shadow element later */
+}
+.banner span {
   font-weight: 600;
 }
 .attribution {
