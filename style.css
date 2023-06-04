@@ -4,19 +4,22 @@ body {
   font-size: 16px;
   margin: 150px auto;
 }
-input {
+input,
+input:focus,
+input:after {
   padding: 8px 0 8px 25px;
   width: 435px;
   height: auto;
-  border-color: hsl(246, 25%, 77%);
   font-weight: 500;
   border-radius: 4.5px;
   margin: 10px;
-}
-input:focus {
   color: hsl(249, 10%, 26%);
+  border: 1px solid hsl(249, 10%, 26%);
+  /* border-color: hsl(246, 25%, 77%); */
 }
+
 input:invalid {
+  border: 2px solid hsl(0, 100%, 74%);
   color: hsl(0, 100%, 74%);
 }
 
