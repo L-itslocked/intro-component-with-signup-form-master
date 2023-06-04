@@ -12,8 +12,8 @@ input:after {
   /* border-color: hsl(246, 25%, 77%); */
 }
 input {
-  margin: 10px auto;
-  padding: 10px !important;
+  margin: 38px auto;
+  padding: 15px !important;
   /* padding: 10px 0 10px 25px; */
   font-weight: 500;
   border-radius: 3.5px !important;
@@ -23,6 +23,7 @@ input:invalid {
   border: 2px solid hsl(0, 100%, 74%);
   color: hsl(0, 100%, 74%);
 }
+
 form .invalid-feedback {
   display: block;
   margin: -5px 0 15px 0;
@@ -36,7 +37,7 @@ form .invalid-feedback {
 form,
 button {
   display: block;
-  margin: 0 15px;
+  margin: -15px 15px 0;
 }
 
 button {
@@ -53,7 +54,7 @@ button {
   margin: 5rem auto;
 }
 .left-info {
-  margin: 17rem auto;
+  margin: 18.25rem auto;
 }
 .banner,
 .form {
@@ -69,9 +70,11 @@ button {
 .header {
   font-weight: 700;
   font-size: 3rem;
+  line-height: 1;
 }
 .subtitle {
   font-weight: 500;
+  margin: 1.75rem 0;
 }
 .banner {
   background-color: hsl(248, 32%, 49%);
