@@ -13,9 +13,10 @@ input:after {
 }
 input {
   margin: 10px auto;
-  padding: 10px!important;
+  padding: 10px !important;
   /* padding: 10px 0 10px 25px; */
   font-weight: 500;
+  border-radius: 3.5px !important;
 }
 
 input:invalid {
@@ -30,14 +31,14 @@ form .invalid-feedback {
   font-size: 0.6rem;
   font-weight: 500;
   font-style: italic;
+  visibility: visible;
 }
 form,
 button {
   display: block;
   margin: 0 15px;
-
-  border-radius: 3.5px !important;
 }
+
 button {
   padding: 15px 130px;
   border: none;
@@ -46,6 +47,7 @@ button {
   text-transform: uppercase;
   background-color: hsl(154, 59%, 51%);
   box-shadow: 0 4px hsl(154, 67%, 42%);
+  border-radius: 4.5px;
 }
 .banner,
 .form {
@@ -83,6 +85,7 @@ button {
   margin: 1.3rem;
   padding: 1.5rem;
 }
+
 .footer {
   margin: 20px;
   color: hsl(246, 25%, 77%);
