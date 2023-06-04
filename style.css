@@ -5,43 +5,44 @@ body {
   margin: 0 auto;
 }
 input,
-input:focus,
-input:after {
+input:focus {
   color: hsl(249, 10%, 26%);
-  border: 1px solid hsl(249, 10%, 26%);
+  border: 1px solid hsl(249, 10%, 26%) !important;
   /* border-color: hsl(246, 25%, 77%); */
 }
 input {
   margin: 38px auto;
   padding: 15px !important;
-  /* padding: 10px 0 10px 25px; */
-  font-weight: 500;
   border-radius: 3.5px !important;
+  font-weight: 500;
 }
 
 input:invalid {
-  border: 2px solid hsl(0, 100%, 74%);
+  border: 2px solid hsl(0, 100%, 74%) !important;
   color: hsl(0, 100%, 74%);
 }
 
 form .invalid-feedback {
   display: block;
-  margin: -5px 0 15px 0;
+  margin-top: -30px !important;
+  margin-bottom: -5px;
+  /* margin: -10px 0 15px 0; */
   text-align: right;
   color: hsl(0, 100%, 74%);
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 500;
   font-style: italic;
   visibility: visible;
 }
+
 form,
 button {
   display: block;
-  margin: -15px 15px 0;
+  margin: 30px 15px 0;
 }
 
 button {
-  padding: 15px 130px;
+  padding: 3% 32.3%;
   border: none;
   font-size: 0.9rem;
   font-weight: 500;
