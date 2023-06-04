@@ -2,7 +2,7 @@ body {
   background-color: hsl(0, 100%, 74%);
   font-family: "poppins", sans-serif;
   font-size: 16px;
-  margin: 150px auto;
+  margin: 0 auto;
 }
 input,
 input:focus,
@@ -48,6 +48,12 @@ button {
   background-color: hsl(154, 59%, 51%);
   box-shadow: 0 4px hsl(154, 67%, 42%);
   border-radius: 4.5px;
+}
+.right-form {
+  margin: 5rem auto;
+}
+.left-info {
+  margin: 17rem auto;
 }
 .banner,
 .form {
