@@ -22,7 +22,15 @@ input:invalid {
   border: 2px solid hsl(0, 100%, 74%);
   color: hsl(0, 100%, 74%);
 }
+form .invalid-feedback {
+  display: block;
+  text-align: right;
+  width: 100%;
+  color: hsl(0, 100%, 74%);
+  font-size: 0.75rem;
+  font-style: italic;
 
+}
 form,
 button {
   border-radius: 4.5px;
