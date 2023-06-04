@@ -7,15 +7,15 @@ body {
 input,
 input:focus,
 input:after {
-  padding: 8px 0 8px 25px;
-  width: 435px;
-  height: auto;
-  font-weight: 500;
-  border-radius: 4.5px;
-  margin: 10px;
   color: hsl(249, 10%, 26%);
   border: 1px solid hsl(249, 10%, 26%);
   /* border-color: hsl(246, 25%, 77%); */
+}
+input {
+  margin: 10px auto;
+  padding: 10px!important;
+  /* padding: 10px 0 10px 25px; */
+  font-weight: 500;
 }
 
 input:invalid {
@@ -24,27 +24,27 @@ input:invalid {
 }
 form .invalid-feedback {
   display: block;
+  margin: -5px 0 15px 0;
   text-align: right;
-  width: 100%;
   color: hsl(0, 100%, 74%);
-  font-size: 0.75rem;
+  font-size: 0.6rem;
+  font-weight: 500;
   font-style: italic;
-
 }
 form,
 button {
-  border-radius: 4.5px;
   display: block;
-  margin: 0 auto;
+  margin: 0 15px;
+
+  border-radius: 3.5px !important;
 }
 button {
-  background-color: hsl(154, 59%, 51%);
+  padding: 15px 130px;
+  border: none;
+  font-size: 0.9rem;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 15px 127px;
-  display: block;
-  margin: 0 auto;
-  border: none;
+  background-color: hsl(154, 59%, 51%);
   box-shadow: 0 4px hsl(154, 67%, 42%);
 }
 .banner,
