@@ -2,7 +2,7 @@ body {
   background-color: hsl(0, 100%, 74%);
   font-family: "poppins", sans-serif;
   font-size: 16px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 input,
 input:focus {
@@ -126,8 +126,39 @@ button {
     background-image: url(/images/bg-intro-desktop.png);
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
+  .header {
+    font-size: 2.25rem;
+  }
+  .subtitle {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 767px) {
   body {
     background-image: url(/images/bg-intro-mobile.png);
+    text-align: center;
+  }
+  .left-info {
+    margin: 6rem auto;
+  }
+  .header {
+    font-size: 1.75rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+    font-weight: 400;
+  }
+  .right-form {
+    margin: -4rem auto;
+  }
+  .banner {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    /* font-weight: 100; FIGURE THIS OUT */
+  }
+  span {
+    font-weight: 500;
   }
 }
