@@ -38,7 +38,7 @@ form .invalid-feedback {
 form,
 button {
   display: block;
-  margin: 30px 15px 0;
+  /* margin: 30px 15px 0; */
 }
 
 button {
@@ -139,11 +139,20 @@ button {
     background-image: url(/images/bg-intro-mobile.png);
     text-align: center;
   }
+  input {
+    margin: 1rem 0 3rem;
+  }
+
+  button {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+  }
   .left-info {
     margin: 6rem auto;
   }
   .header {
     font-size: 1.75rem;
+    font-weight: 600;
   }
   .subtitle {
     font-size: 1rem;
@@ -151,14 +160,20 @@ button {
     font-weight: 400;
   }
   .right-form {
-    margin: -4rem auto;
+    margin: -6rem auto;
   }
   .banner {
-    font-size: 1rem;
-    padding: 1rem 3rem;
-    /* font-weight: 100; FIGURE THIS OUT */
+    /* font-size: 1rem; */
+    padding: 1.25rem 3rem;
   }
-  span {
+  .bold-banner {
     font-weight: 500;
+  }
+  .banner p {
+    font-weight: 100;
+  }
+  .banner,
+  .form {
+    margin: 2rem 0.75rem;
   }
 }
