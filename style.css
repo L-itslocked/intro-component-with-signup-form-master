@@ -4,35 +4,34 @@ body {
   font-size: 16px;
   /* margin: 0 auto; */
 }
+
+input:invalid {
+  border: 1px solid hsl(0, 100%, 74%) !important;
+  color: hsl(0, 100%, 74%);
+  /* this is overriding the regular input -- but why?!*/
+}
 input,
 input:focus {
+  border: 1px solid hsl(246, 25%, 77%) !important;
   color: hsl(249, 10%, 26%);
-  border: 1px solid hsl(249, 10%, 26%) !important;
-  /* border-color: hsl(246, 25%, 77%); */
 }
 input {
-  margin: 38px auto;
+  /* margin: 38px auto;  not needed on mobile */
   padding: 15px !important;
   border-radius: 3.5px !important;
   font-weight: 500;
-}
-
-input:invalid {
-  border: 2px solid hsl(0, 100%, 74%) !important;
-  color: hsl(0, 100%, 74%);
 }
 
 form .invalid-feedback {
   display: block;
   margin-top: -30px !important;
   margin-bottom: -5px;
-  /* margin: -10px 0 15px 0; */
   text-align: right;
   color: hsl(0, 100%, 74%);
   font-size: 0.7rem;
   font-weight: 500;
   font-style: italic;
-  visibility: visible;
+  /* margin: -10px 0 15px 0; */
 }
 
 form,
@@ -145,7 +144,8 @@ button {
 
   button {
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
+    font-size: 0.83rem;
   }
   .left-info {
     margin: 6rem auto;
@@ -162,18 +162,19 @@ button {
   .right-form {
     margin: -6rem auto;
   }
-  .banner {
-    /* font-size: 1rem; */
-    padding: 1.25rem 3rem;
-  }
   .bold-banner {
     font-weight: 500;
   }
   .banner p {
     font-weight: 100;
   }
-  .banner,
-  .form {
+  .banner {
     margin: 2rem 0.75rem;
+  }
+  .input {
+    font-size: 0.5rem;
+  }
+  .footer {
+    font-size: 0.65rem;
   }
 }
