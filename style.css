@@ -2,6 +2,7 @@ body {
   background-image: url(/images/bg-intro-mobile.png);
   background-color: hsl(0, 100%, 74%);
   font-family: "poppins", sans-serif;
+  display: block;
   margin: 88px auto;
   text-align: center;
   color: #fff;
@@ -50,7 +51,7 @@ button {
   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
 }
 .banner {
-  margin: 2rem 0.75rem;
+  margin: 32px 24px;
   padding: 18px 66px;
   font-size: 15px;
   font-weight: 200;
@@ -67,16 +68,22 @@ button {
   font-weight: 700;
   color: hsl(0, 100%, 74%);
 }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.attribution a:hover {
+  text-decoration: underline;
+  color: hsl(154, 59%, 51%);
+}
 footer p {
   margin-top: 50px;
   font-size: 10px;
 }
-@media (width: 1440px) {
+
+@media (min-width: 900px) {
   body {
     background-image: url(/images/bg-intro-desktop.png);
-  }
-  .subtitle {
-    margin-left: 50px;
   }
   h1 {
     margin-left: 75px;
@@ -84,11 +91,35 @@ footer p {
     font-size: 50px;
     line-height: 1.2;
   }
+  button {
+    padding: 15px 134px 15px 134px;
+  }
+  input {
+    padding: 0 40px 20px 40px;
+  }
+  form {
+    padding: 40px;
+  }
+  form,
+  .banner {
+    width: 540px;
+  }
+  .subtitle {
+    margin-left: 50px;
+  }
   .left-info {
     margin: 200px auto;
     text-align: left;
   }
   .right-form {
-    margin: 10px auto;
+    margin: 35px auto;
+  }
+  .banner {
+    padding: 17px 112px;
+    margin: 0 24px 24px;
+  }
+}
+@media (min-width: 768) {
+  .container {
   }
 }
