@@ -1,180 +1,75 @@
 body {
+  background-image: url(/images/bg-intro-mobile.png);
   background-color: hsl(0, 100%, 74%);
   font-family: "poppins", sans-serif;
-  font-size: 16px;
-  /* margin: 0 auto; */
-}
-
-input:invalid {
-  border: 1px solid hsl(0, 100%, 74%) !important;
-  color: hsl(0, 100%, 74%);
-  /* this is overriding the regular input -- but why?!*/
-}
-input,
-input:focus {
-  border: 1px solid hsl(246, 25%, 77%) !important;
-  color: hsl(249, 10%, 26%);
-}
-input {
-  /* margin: 38px auto;  not needed on mobile */
-  padding: 15px !important;
-  border-radius: 3.5px !important;
-  font-weight: 500;
-}
-
-form .invalid-feedback {
-  display: block;
-  margin-top: -30px !important;
-  margin-bottom: -5px;
-  text-align: right;
-  color: hsl(0, 100%, 74%);
-  font-size: 0.7rem;
-  font-weight: 500;
-  font-style: italic;
-  /* margin: -10px 0 15px 0; */
-}
-
-form,
-button {
-  display: block;
-  /* margin: 30px 15px 0; */
-}
-
-button {
-  padding: 3% 32.3%;
-  border: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  background-color: hsl(154, 59%, 51%);
-  box-shadow: 0 4px hsl(154, 67%, 42%);
-  border-radius: 4.5px;
-}
-.right-form {
-  margin: 5rem auto;
-}
-.left-info {
-  margin: 18.25rem auto;
-}
-.banner,
-.form {
-  box-shadow: 0 7px hsla(249, 10%, 26%, 0.271);
-  /* review box-shadow element later */
-}
-.header,
-.subtitle,
-.banner,
-button {
+  margin: 88px auto;
+  text-align: center;
   color: #fff;
 }
-.header {
+h1 {
+  font-size: 28px;
   font-weight: 700;
-  font-size: 3rem;
-  line-height: 1;
 }
-.subtitle {
+p {
+  margin: 16px 24px 30px !important;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+strong {
+  font-weight: 700;
+}
+form {
+  background-color: #fff;
+  margin: 0 24px;
+  padding: 24px;
+  border-radius: 10px;
+  /* box-shadow: 0 7px hsl(0, 0%, 59%);  */
+}
+input,
+button {
+  border-radius: 5px;
+}
+input {
+  margin-bottom: 16px;
+  padding: 15px 0 15px 19px !important;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+button {
+  margin: 0 0 8px;
+  padding: 15px 29.9px 15px 29.9px;
+  color: #fff;
+  font-size: 15px;
   font-weight: 500;
-  margin: 1.75rem 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #38cc8b;
+  border: none;
+  /* box shadow? */
 }
 .banner {
+  margin: 2rem 0.75rem;
+  padding: 18px 66px;
+  font-size: 15px;
+  font-weight: 200;
+  border-radius: 10px;
   background-color: hsl(248, 32%, 49%);
-  margin: 0 20px;
-  padding: 15px 0;
-  text-align: center;
+  /* box-shadow: 0 7px hsl(0, 0%, 59%); */
+  /* is there a box-shadow opacity? */
 }
-.banner span {
-  font-weight: 600;
-}
-.banner,
-.form {
-  border-radius: 9px;
-}
-.form {
-  background-color: #fff;
-  margin: 1.3rem;
-  padding: 1.5rem;
-}
-
-.footer {
-  margin: 20px;
+.disclaimer {
+  margin: 8px 10px 0;
   color: hsl(246, 25%, 77%);
-  text-align: center;
-  font-size: 10px;
-  font-weight: 500;
-}
-.footer strong {
-  color: hsl(0, 100%, 74%);
-  font-weight: 700;
-}
-.attribution {
-  margin: 100px auto;
   font-size: 11px;
-  text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
+.disclaimer strong {
+  font-weight: 700;
+  color: hsl(0, 100%, 74%);
 }
-.attribution a:hover {
-  text-decoration: underline;
-  color: hsl(154, 59%, 51%);
+footer p {
+  margin-top: 50px;
+  font-size: 10px;
 }
-/* FIX REPONSIVE BEHAVIORS */
-@media (min-width: 701px) {
-  body {
-    background-image: url(/images/bg-intro-desktop.png);
-  }
-}
-@media (max-width: 1000px) {
-  .header {
-    font-size: 2.25rem;
-  }
-  .subtitle {
-    font-size: 0.75rem;
-  }
-}
-@media (max-width: 767px) {
-  body {
-    background-image: url(/images/bg-intro-mobile.png);
-    text-align: center;
-  }
-  input {
-    margin: 1rem 0 3rem;
-  }
 
-  button {
-    margin: 0 auto;
-    padding: 1rem 3rem;
-    font-size: 0.83rem;
-  }
-  .left-info {
-    margin: 6rem auto;
-  }
-  .header {
-    font-size: 1.75rem;
-    font-weight: 600;
-  }
-  .subtitle {
-    font-size: 1rem;
-    padding: 0 1rem;
-    font-weight: 400;
-  }
-  .right-form {
-    margin: -6rem auto;
-  }
-  .bold-banner {
-    font-weight: 500;
-  }
-  .banner p {
-    font-weight: 100;
-  }
-  .banner {
-    margin: 2rem 0.75rem;
-  }
-  .input {
-    font-size: 0.5rem;
-  }
-  .footer {
-    font-size: 0.65rem;
-  }
-}
