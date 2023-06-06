@@ -1,5 +1,4 @@
 let btn = document.getElementById("trial-btn");
-
 btn.addEventListener("click", btnHandler);
 
 function btnHandler() {
@@ -26,6 +25,7 @@ function btnHandler() {
     document.getElementById("invalid-pw").innerHTML =
       "Password cannot be empty";
   } else if (pw.length < 15) {
-    document.getElementById("invalid-pw").innerHTML = "Password must be a minimum of 15 characters"
+    document.getElementById("invalid-pw").innerHTML =
+      "Password must be a minimum of 15 characters";
   }
 }
