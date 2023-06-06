@@ -20,13 +20,6 @@ p {
 strong {
   font-weight: 700;
 }
-form {
-  background-color: #fff;
-  margin: 0 24px;
-  padding: 24px;
-  border-radius: 10px;
-  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
-}
 input,
 button {
   border-radius: 5px;
@@ -50,6 +43,11 @@ button {
   border: none;
   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
 }
+footer p {
+  margin-top: 50px;
+  font-size: 10px;
+}
+
 .banner {
   margin: 32px 24px;
   padding: 18px 66px;
@@ -57,6 +55,13 @@ button {
   font-weight: 200;
   border-radius: 10px;
   background-color: hsl(248, 32%, 49%);
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+}
+.form {
+  background-color: #fff;
+  margin: 0 24px;
+  padding: 24px;
+  border-radius: 10px;
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 }
 .disclaimer {
@@ -76,10 +81,6 @@ button {
   text-decoration: underline;
   color: hsl(154, 59%, 51%);
 }
-footer p {
-  margin-top: 50px;
-  font-size: 10px;
-}
 
 @media (min-width: 900px) {
   body {
@@ -97,10 +98,10 @@ footer p {
   input {
     padding: 0 40px 20px 40px;
   }
-  form {
+  .form {
     padding: 40px;
   }
-  form,
+  .form,
   .banner {
     width: 540px;
   }
@@ -117,9 +118,5 @@ footer p {
   .banner {
     padding: 17px 112px;
     margin: 0 24px 24px;
-  }
-}
-@media (min-width: 768) {
-  .container {
   }
 }
